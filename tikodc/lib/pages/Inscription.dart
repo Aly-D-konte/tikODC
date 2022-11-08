@@ -46,8 +46,9 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                 ),
                 const SizedBox(height: 15.0,
                 ),
-                SizedBox(width:200.0, //width: MediaQuery.of(context).size.width-40,
-              height: 50,
+                SizedBox(
+                  width:200.0, //width: MediaQuery.of(context).size.width-40,
+                  height: 50,
                  child: Builder(
                   builder: (context) => ElevatedButton(
                   onPressed: () {

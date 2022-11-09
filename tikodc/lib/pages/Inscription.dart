@@ -21,7 +21,7 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
             title:  const Text('Profile',
               style: TextStyle(
                 fontSize: 20,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.bold,
                 color: Colors.white,
                 
               ),
@@ -42,7 +42,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                 ),
                 const Text('Créer un compte',
                 style: TextStyle(
-                  color: Colors.black87,)
+                  color: Colors.black87,
+                  fontWeight:  FontWeight.bold)
                 ),
                 const SizedBox(height: 15.0,
                 ),
@@ -60,7 +61,10 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                       Colors.red[500],
                     )),
                   //textColor: Colors.white,
-                  child: const Text('S\'inscrire'),
+                  child: const Text('S\'inscrire',
+                  style: TextStyle(
+                    fontWeight:  FontWeight.bold),
+                  ),
                  ),
                 ),
                 ),
@@ -103,7 +107,10 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
               ),
               const Text(
                 'Inscrivez-vous à TikODC',
-             style: TextStyle(fontSize: 25.0, color: Colors.black,), 
+             style: TextStyle(
+              fontSize: 25.0, 
+              color: Colors.black,
+             fontWeight:  FontWeight.bold), 
              ),
              const SizedBox(
                height: 10.0,
@@ -112,7 +119,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
               'Créez un profil, suivez d\'autres comptes, créez vos propres vidéos et bien plus encore.',
               style: TextStyle(
                 fontSize: 15.0,
-                color: Colors.black54
+                color: Colors.black54,
+                fontWeight:  FontWeight.bold
               ),
               textAlign: TextAlign.center,
               ),
@@ -150,7 +158,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                       ),
                      Expanded(flex: 2, child: Text('Numéro de téléphone/e-mail/nom d\'utilisateur ',
                       style: TextStyle(fontSize: 14.0,
-                      color: Colors.black87),),),
+                      color: Colors.black87,
+                      fontWeight:  FontWeight.bold),),),
                     ],
                   ),
                   ),
@@ -187,7 +196,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                     ),
                     Expanded(flex: 2, child: Text('Continuer avec Facebook',
                       style: TextStyle(fontSize: 14.0,
-                          color: Colors.black87),),),
+                          color: Colors.black87,
+                          fontWeight:  FontWeight.bold),),),
                   ],
                 ),
               ),
@@ -224,7 +234,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                     ),
                     Expanded(flex: 2, child: Text('Continuer avec Google',
                       style: TextStyle(fontSize: 14.0,
-                          color: Colors.black87),),),
+                          color: Colors.black87,
+                          fontWeight:  FontWeight.bold),),),
                   ],
                 ),
               ),
@@ -261,7 +272,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                     ),
                     Expanded(flex: 2, child: Text('Continuer avec Twitter',
                       style: TextStyle(fontSize: 14.0,
-                          color: Colors.black87),),),
+                          color: Colors.black87,
+                          fontWeight:  FontWeight.bold),),),
                   ],
                 ),
               ),
@@ -294,15 +306,16 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                     ),
                     Expanded(flex: 2, child: Text('Continuer avec Instagram',
                       style: TextStyle(fontSize: 14.0,
-                          color: Colors.black87),),),
+                          color: Colors.black87,
+                          fontWeight:  FontWeight.bold),
+                          ),),
                   ],
                 ),
               ),
             ),
           ),
-          SizedBox(
-                    height: 100,
-                  ),
+          Expanded(
+            child: Container()),
           SizedBox(
                     child: Text(
                       "En continuant, tu acceptes nos Conditions d’utilisatation et " +
@@ -310,8 +323,8 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                           "savoir comment nous collectons, utilisons et partageons " +
                           "tes données",
                       style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.w300,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),
@@ -326,7 +339,7 @@ import 'package:tikodc/pages/InscriptionPhoneUser.dart';
                             "Vous avez déjà un compte ?",
                             style: TextStyle(
                                 color: Colors.black,
-                                fontWeight: FontWeight.w600),
+                                fontWeight: FontWeight.bold),
                           ),
                           
 

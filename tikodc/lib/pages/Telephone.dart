@@ -18,6 +18,7 @@ class TelephoneWidget extends StatelessWidget {
                 IntlPhoneField(
                   decoration: InputDecoration(
                   labelText: 'Numéro de Téléphone',
+                  
                   border: OutlineInputBorder(
                       borderSide: BorderSide(),
                   ),

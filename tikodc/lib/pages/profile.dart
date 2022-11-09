@@ -43,8 +43,9 @@ class  UserProfilePage extends StatelessWidget {
             // username
             Padding(
               padding: const EdgeInsets.all(14.0),
-              child: Text('@nom d\'utilisateur',
-                style: TextStyle(color: Colors.black, fontSize: 20),
+              child: Text('@ Nom d\'utilisateur',
+                style: TextStyle(color: Colors.black, fontSize: 20,
+                fontWeight: FontWeight.bold),
               ),
             ),
             // number of following, followers, likes
@@ -104,47 +105,6 @@ class  UserProfilePage extends StatelessWidget {
 
             SizedBox(height: 15,),
 
-            // buttons -> edit profite, inta links, bookmark
-
-           /* Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 15, horizontal: 30),
-                  child:
-                  Text('Modifier le profil', style: TextStyle(color: contenuColor, fontSize: 18),),
-                  decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey.shade300),
-                      borderRadius: BorderRadius.circular(5)
-                  ),
-                ),
-
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 2.0),
-                  child: Container(
-                    padding: EdgeInsets.all(15),
-                    child:
-                    Icon(Icons.camera_alt, color: Colors.grey[800],),
-                    decoration: BoxDecoration(
-                        border: Border.all(color: Colors.grey.shade300),
-                        borderRadius: BorderRadius.circular(5)
-                    ),
-                  ),
-                ),
-
-                Container(
-                  padding: EdgeInsets.all(15),
-                  child:
-                  Icon(Icons.bookmark_border, color: Colors.grey[800],),
-                  decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey.shade300),
-                      borderRadius: BorderRadius.circular(5)
-                  ),
-                ),
-
-              ],
-            ),*/
-
             SizedBox(height: 80,),
           
 
@@ -154,7 +114,7 @@ class  UserProfilePage extends StatelessWidget {
                 const SizedBox(width: 20.0, height: 100.0),
                 DefaultTextStyle(
                   style: const TextStyle(
-                      fontSize: 25.0,
+                      fontSize: 20.0,
                       fontFamily: 'Horizon',
                       color: Colors.black
                   ),
@@ -163,6 +123,7 @@ class  UserProfilePage extends StatelessWidget {
                       RotateAnimatedText('Retrouve tes favorites'),
                       RotateAnimatedText('Consulte tes suivis'),
                       RotateAnimatedText('Exprime ta créativité'),
+                      
                     ],
                   ),
                 ),

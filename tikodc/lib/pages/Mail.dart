@@ -33,7 +33,8 @@ import 'package:tikodc/pages/ContinuerAvecPhone.dart';
                            ),
 
                            labelText: 'Nom / E-mail',
-                           labelStyle: TextStyle(color: Colors.black)
+                           labelStyle: TextStyle(color: Colors.black,
+                           fontWeight:  FontWeight.bold)
                        ),
 
                      ),
@@ -54,7 +55,8 @@ import 'package:tikodc/pages/ContinuerAvecPhone.dart';
                           ),
 
                           labelText: 'Mot de passe',
-                          labelStyle: TextStyle(color: Colors.black)
+                          labelStyle: TextStyle(color: Colors.black,
+                          fontWeight:  FontWeight.bold)
                       ),
 
                     ),
@@ -75,6 +77,7 @@ import 'package:tikodc/pages/ContinuerAvecPhone.dart';
                                 child: Text('Mot de passe oublié?',
                                 
                                 style: TextStyle(color: Colors.red,
+                                fontWeight:  FontWeight.bold
                                 ),)),
                             
                     )

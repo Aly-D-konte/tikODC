@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tikodc/HomePage.dart';
 import 'package:tikodc/pages/NumeroPad.dart';
 import 'package:tikodc/pages/home.dart';
 
@@ -60,8 +61,8 @@ class _VerifyPhoneState extends State<VerifyPhone> {
                     ),
                     Expanded(
                         child: GestureDetector(
-                           onTap: () {
-                               Navigator.of(context).push( MaterialPageRoute(builder: (context) => UserHomePage()));
+                          onTap: () {
+                               Navigator.of(context).push( MaterialPageRoute(builder: (context) => Homepage()));
                              
                             },
                           child: Row(

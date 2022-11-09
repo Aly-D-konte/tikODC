@@ -45,7 +45,7 @@ class _HomepageState extends State<Homepage> {
         items:  [
           const BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           const BottomNavigationBarItem(icon: Icon(Icons.bolt), label: 'Now'),
-        BottomNavigationBarItem(icon: Image.asset('assets/images/tiktok_add.png', height: 50,),label:'',),
+        BottomNavigationBarItem(icon: Image.asset('assets/images/tiktok_addd.png', height: 30,),label:'',),
           const BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_rounded), label: 'Inbox'),
           const BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
       ],),
